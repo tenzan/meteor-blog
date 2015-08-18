@@ -1,1 +1,1 @@
-TODO
+# Implementation of sample blog app with Meteor
