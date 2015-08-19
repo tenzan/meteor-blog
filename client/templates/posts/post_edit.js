@@ -6,7 +6,7 @@ Template.postEdit.events({
 
         var postProperties = {
             title: $(e.target).find('[name=title]').val(),
-            url: $(e.target).find('[name=body]').val()
+            body: $(e.target).find('[name=body]').val()
         }
 
         Posts.update(currentPostId, {$set: postProperties}, function (error) {

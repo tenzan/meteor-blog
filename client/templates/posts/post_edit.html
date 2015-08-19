@@ -1,4 +1,4 @@
-<template name="postEdit">
+<template name="postEdit" xmlns="http://www.w3.org/1999/html">
     <form class="main form page">
         <div class="form-group">
             <label class="control-label" for="title">Title</label>
@@ -12,7 +12,7 @@
             <label class="control-label" for="body">Body</label>
 
             <div class="controls">
-                <input name="body" id="body" type="text" value="{{body}}" placeholder="Post content" class="form-control"/>
+                <textarea name="body" id="body" type="text" value="{{body}}" placeholder="Post content" class="form-control" rows="3"></textarea>
             </div>
         </div>
         <input type="submit" value="Submit" class="btn btn-primary submit"/>
