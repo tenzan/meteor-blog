@@ -1,5 +1,5 @@
 Template.tagSubmit.events({
-    'submit-form': function (e) {
+    'submit form': function (e) {
         e.preventDefault();
 
         var tag = {
