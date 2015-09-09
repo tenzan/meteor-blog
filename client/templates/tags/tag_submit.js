@@ -10,7 +10,7 @@ Template.tagSubmit.events({
             //display the error to the user and abort
             if (error)
                 return alert(error.message);
-            Router.go('tagPage', {_id: result._id});
+            Router.go('tagsList');
         });
     }
 });
