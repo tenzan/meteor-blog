@@ -58,6 +58,7 @@ mongo-id@1.0.1
 nimble:restivus@0.8.4
 npm-bcrypt@0.7.8_2
 npm-mongo@1.4.39_1
+numtel:mysql@1.0.3
 observe-sequence@1.0.7
 ordered-dict@1.0.4
 promise@0.5.0
