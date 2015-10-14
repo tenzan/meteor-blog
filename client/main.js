@@ -1,2 +1,2 @@
-Meteor.subscribe('posts');
-Meteor.subscribe('tags');
+// Meteor.subscribe('posts');
+// Meteor.subscribe('tags');
