@@ -1,10 +1,3 @@
-// Meteor.publish('posts', function () {
-//     return Posts.find();
-// });
-
-// Meteor.publish('tags', function () {
-//     return Tags.find();
-// });
 //
 // Meteor.publish('comments', function(postId) {
 //     check(postId, String);
@@ -33,6 +26,13 @@ Meteor.publish('posts', function () {
     return liveDb.select(
         'SELECT * FROM posts ORDER BY created_at DESC',
         [{table: 'posts'}]
+    );
+});
+
+Meteor.publish('tags', function () {
+    return liveDb.select(
+        'SELECT * FROM tags ORDER BY name ASC',
+        [{table: 'tags'}]
     );
 });
 
